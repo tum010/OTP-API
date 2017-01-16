@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>th.co.tac.api</groupId>
+	<artifactId>api-corp-otp-parent</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<description>Parent POM - Corporate OTP API</description>
+	<name>Corporate OTP API</name>
+	<properties>
+		<!-- child components dependency version -->
+		<api-corp-otp.version>1.0.0-SNAPSHOT</api-corp-otp.version>
+		<api-corp-otp-shared.version>1.0.0-SNAPSHOT</api-corp-otp-shared.version>
+	</properties>
+
+	<modules>
+		<module>api-corp-otp</module>
+		<module>api-corp-otp-shared</module>
+	</modules>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.4.3.RELEASE</version>
+	</parent>
+</project>

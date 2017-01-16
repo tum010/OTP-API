@@ -1,0 +1,5 @@
+th\co\tac\api\otp\config\JerseyConfig.class
+th\co\tac\api\otp\ApiApplication.class
+th\co\tac\api\otp\model\SendOTPRequest.class
+th\co\tac\api\otp\controller\ApiController.class
+th\co\tac\api\otp\model\SendOTPResponse.class
